@@ -61,6 +61,20 @@ main {
 
 footer {
 
+    .text-cp {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -250px;
+        margin-top: 50px;
+
+        .corpoemente {
+            width: 90vw;
+        }
+
+    }
+
     .bg-footer {
         width: 100vw;
     }
