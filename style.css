@@ -11,8 +11,31 @@ body {
     overflow-x: hidden;
 }
 
+header {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+
+    nav {
+        display: flex;
+        gap: 30px;
+    }
+
+    div {
+        position: absolute;
+        right: 100px;
+
+        a {
+            font-weight: bold;
+        }
+    }
+}
+
 main {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
 }
