@@ -21,6 +21,10 @@ header {
     nav {
         display: flex;
         gap: 30px;
+
+        a {
+            color: #000;
+        }
     }
 
     div {
@@ -29,6 +33,7 @@ header {
 
         a {
             font-weight: bold;
+            color: #000;
         }
     }
 }
@@ -38,4 +43,37 @@ main {
     top: 0;
     left: 0;
     z-index: -1;
+    height: 100vh;
+}
+
+.header-footer {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: -100px;
+
+    nav {
+        display: flex;
+        gap: 30px;
+
+        a {
+            color: #000;
+        }
+    }
+
+    div {
+        position: absolute;
+        right: 100px;
+
+        a {
+            font-weight: bold;
+            color: #000;
+        }
+    }
+}
+
+footer {
+    margin-top: 800px;
 }
