@@ -68,9 +68,28 @@ main {
         }
     }
 
-    div {
+    .icons {
         position: absolute;
         right: 100px;
+        display: flex;
+
+        div {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 25px;
+                height: 25px;
+            }
+
+            img:hover {
+                width: 30px;
+                height: 30px;
+            }
+        }
 
         a {
             font-weight: bold;
@@ -82,7 +101,7 @@ main {
 footer {
     margin-top: 800px;
 
-    img {
+    .bg-footer {
         width: 100vw;
     }
 }
