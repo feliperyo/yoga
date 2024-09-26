@@ -45,6 +45,10 @@ main {
     left: 0;
     z-index: -1;
     height: 100vh;
+
+    img {
+        width: 100vw;
+    }
 }
 
 .header-footer {
@@ -77,4 +81,8 @@ main {
 
 footer {
     margin-top: 800px;
+
+    img {
+        width: 100vw;
+    }
 }
