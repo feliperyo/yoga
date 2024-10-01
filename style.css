@@ -63,8 +63,8 @@ main {
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
-    justify-content: space-around;
-    padding: 0 30px;
+    justify-content: center;
+    padding: 0 150px;
 
     .title-aula {
         width: 100%;
