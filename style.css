@@ -225,6 +225,7 @@ footer {
 }
 
 @media screen and (max-width: 1600px) {
+
     .div-button-more {
         margin-top: 500px;
 
@@ -237,5 +238,9 @@ footer {
                 width: 150px;
             }
         }
+    }
+
+    .classes {
+        padding: 0 75px;
     }
 }
