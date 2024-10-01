@@ -8,10 +8,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 header {
     z-index: 1;
     display: flex;
@@ -47,7 +43,7 @@ main {
     height: 100vh;
 
     img {
-        width: 100vw;
+        width: 100%;
     }
 }
 
@@ -55,28 +51,29 @@ main {
     margin-top: 900px;
 
     img {
-        width: 100vw;
+        width: 100%;
     }
 }
 
 footer {
 
     .text-cp {
-        width: 100vw;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: -250px;
-        margin-top: 50px;
+        margin-top: 45px;
 
         .corpoemente {
-            width: 90vw;
+            width: 90%;
+            margin-top: -25px;
         }
 
     }
 
     .bg-footer {
-        width: 100vw;
+        width: 100%;
     }
 }
 
