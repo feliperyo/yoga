@@ -51,6 +51,10 @@ main {
     margin-top: 900px;
     margin-bottom: 100px;
 
+    .title-aula {
+        width: 100%;
+    }
+
     .container-classes {
         display: flex;
         align-items: center;
@@ -95,7 +99,11 @@ main {
 
 .map {
 
-    img {
+    .title-map {
+        width: 100%;
+    }
+
+    .map-img {
         width: 100%;
     }
 }
